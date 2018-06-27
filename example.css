@@ -1,0 +1,26 @@
+#btext{ /*star makes it global, which makes whatever is inside the curly brackets true for the whole page inside*/
+  font-size: 20px
+}
+.div{
+  margin-top: 25px;
+}
+#border{ /*hashtag means this is being applied to id "border"*/
+  border-style: dotted;
+  border-color: pink;
+}
+#colortext{
+  color: blue;
+}
+#grad1 {
+
+    height: 200px;
+  }
+
+body{
+      background: linear-gradient(-90deg, #F5A9A9, #A9F5F2);
+      font-family: 'Fugaz One', cursive;
+      input[type=text] {
+      width: 130px;
+      -webkit-transition: width 0.4s ease-in-out;
+      transition: width 0.4s ease-in-out;
+    }
